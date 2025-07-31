@@ -93,6 +93,11 @@ transform: scale(0.5);
     } 
 }
 
+.size-img{
+  height: 196.26px;
+  object-fit: cover;
+}
+
 
 
 
