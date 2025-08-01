@@ -98,7 +98,9 @@ transform: scale(0.5);
   object-fit: cover;
 }
 
-
+.bg-form{
+  background-color: rgb(162, 175, 155);
+}
 
 
 
