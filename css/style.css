@@ -2,6 +2,7 @@
  background-color:rgb(87, 86, 79) ;   
 }
 
+
 .bg-section-1{
     background-color:rgb(231, 230, 226) ;
 }
@@ -93,9 +94,23 @@ transform: scale(0.5);
     } 
 }
 
+.image-container{
+  overflow: hidden;
+}
+
 .size-img{
+  
   height: 196.26px;
   object-fit: cover;
+  
+}
+
+.img-transition{
+   transition: transform 0.3s ease;
+}
+
+.img-transition:hover {
+  transform: scale(1.05);
 }
 
 .bg-form{
